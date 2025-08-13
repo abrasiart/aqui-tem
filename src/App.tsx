@@ -99,6 +99,7 @@ const App: React.FC = () => {
             console.error(err);
         }
     }, []);
+    
 
     const fetchStoresByProduct = useCallback(async (productId: string) => {
         setLoading(true);
