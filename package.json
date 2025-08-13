@@ -2,6 +2,17 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "dependencies": {
+    // ... suas dependências
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "CI=false react-scripts build"  // <<<< CORREÇÃO AQUI
+  },
+  {
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
   "homepage": "./",
   "dependencies": {
     "mapbox-gl": "^3.5.1",
