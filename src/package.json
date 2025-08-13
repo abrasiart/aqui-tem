@@ -3,6 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    // ... suas dependências
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npx react-scripts build"  // <<<< CORREÇÃO AQUI
+  },
+  {
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
     "@types/leaflet": "^1.9.12",
     "@types/react-dom": "^18.3.0",
     "leaflet": "^1.9.4",

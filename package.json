@@ -2,11 +2,21 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "dependencies": {
+    // ... suas dependências
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npx react-scripts build"  // <<<< CORREÇÃO AQUI
+  },
+  {
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@types/leaflet": "^1.9.12",
+    "@types/react-dom": "^18.3.0",
     "leaflet": "^1.9.4",
-    "mapbox-gl": "^3.14.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-leaflet": "^4.2.1",
@@ -28,9 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/react": "^19.1.10",
-    "@types/react-dom": "^19.1.7"
   }
 }
